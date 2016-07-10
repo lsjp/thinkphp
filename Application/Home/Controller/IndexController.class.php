@@ -13,4 +13,8 @@ class IndexController extends Controller
     public function self(){
         $this->display();
     }
+
+    public function discovery(){
+        $this->display();
+    }
 }
